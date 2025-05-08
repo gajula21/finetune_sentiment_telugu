@@ -95,21 +95,23 @@ Evaluation Strategy: Every 125 steps
 Early Stopping: Patience of 5 evaluation steps
 Mixed Precision: Enabled (fp16)
 
-## Evaluation Results
-Step	Training Loss	Validation Loss	Accuracy
-125	0.7637	0.7355	72.97%
-250	0.7289	0.7110	74.57%
-375	0.7155	0.6982	75.72%
-500	0.6912	0.7005	75.58%
-625	0.6851	0.6821	76.79%
-750	0.6606	0.6897	76.61%
-875	0.6464	0.6838	76.68%
-1000	0.6542	0.6676	77.45%
-1125	0.6501	0.6602	78.04%
-1250	0.6374	0.6730	77.81%
-1375	0.6143	0.6682	77.99%
-1500	0.6175	0.6665	78.10%
-1625	0.6183	0.6646	78.16%
+### Evaluation Results
+
+| Step | Training Loss | Validation Loss | Accuracy |
+|------|---------------|-----------------|----------|
+| 125  | 0.7637        | 0.7355          | 72.97%   |
+| 250  | 0.7289        | 0.7110          | 74.57%   |
+| 375  | 0.7155        | 0.6982          | 75.72%   |
+| 500  | 0.6912        | 0.7005          | 75.58%   |
+| 625  | 0.6851        | 0.6821          | 76.79%   |
+| 750  | 0.6606        | 0.6897          | 76.61%   |
+| 875  | 0.6464        | 0.6838          | 76.68%   |
+| 1000 | 0.6542        | 0.6676          | 77.45%   |
+| 1125 | 0.6501        | 0.6602          | 78.04%   |
+| 1250 | 0.6374        | 0.6730          | 77.81%   |
+| 1375 | 0.6143        | 0.6682          | 77.99%   |
+| 1500 | 0.6175        | 0.6665          | 78.10%   |
+| 1625 | 0.6183        | 0.6646          | 78.16%   |
 
 ## Related Projects
 - **Streamlit Application:** The web application client that uses the sentiment analysis API.(https://github.com/gajula21/youtube-sentiment-telugu-app)
